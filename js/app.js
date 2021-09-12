@@ -3,17 +3,6 @@ const loadProducts = () => {
   showProducts(data);
 };
 
-/* gghjhgjmgm */
-
-
-// const loadProducts = () => {
-//   const url = `https://fakestoreapi.com/products`;
-//   // const url = `http://127.0.0.1:5500/db.json`;
-//   fetch(url)
-//     .then((response) => response.json())
-//     .then((data) => showProducts(data));
-// };
-// loadProducts();
 
 // show all product in UI
 const showProducts = (products) => {
